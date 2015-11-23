@@ -11,7 +11,6 @@ App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver: Resolver,
-  rootElement: '#exam_builder',
 });
 
 loadInitializers(App, config.modulePrefix);

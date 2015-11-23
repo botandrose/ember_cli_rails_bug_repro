@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: "application#index"
+  mount_ember_app :exam_builder, to: "/", controller: "application", action: "index"
 end
 
